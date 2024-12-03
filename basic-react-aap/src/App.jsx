@@ -2,7 +2,9 @@ import './App.css'
 // import Title from "./Title"
 // import Producttab from './productTab'
 // import Activity from './activity'
+import Button from './button'
 import ProductTab1 from './productTab1'
+import Hover from './hover'
 
 function Discription(){
   return <p>This is a Discription</p>
@@ -17,6 +19,10 @@ function App() {
     {/* <Discription/> */}
     
     <ProductTab1/>
+    <br></br>
+    <Button/>
+    <br></br>
+    <Hover/>
     {/* <Activity name="Anup" colors="pink"/> */}
   </div> 
   )
