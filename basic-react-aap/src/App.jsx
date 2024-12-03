@@ -5,6 +5,7 @@ import './App.css'
 import Button from './button'
 import ProductTab1 from './productTab1'
 import Hover from './hover'
+import Form from './form'
 
 function Discription(){
   return <p>This is a Discription</p>
@@ -23,6 +24,7 @@ function App() {
     <Button/>
     <br></br>
     <Hover/>
+    <Form/>
     {/* <Activity name="Anup" colors="pink"/> */}
   </div> 
   )
