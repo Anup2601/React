@@ -10,8 +10,8 @@ function like(){
     return(
         <div>
             <p onClick={toggled}>{click?
-                (<i class="fa-solid fa-heart" style={styles}></i>):
-            (<i class="fa-regular fa-heart"></i>)}
+                (<i className="fa-solid fa-heart" style={styles}></i>):
+            (<i className="fa-regular fa-heart"></i>)}
             </p>
         </div>
     )

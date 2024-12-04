@@ -1,10 +1,15 @@
 import { useState } from "react";
 
 
-function counter(){
+let counter=()=>{
     let [count,setcount]=useState(0);
     function incount(){
-        setcount(count+1);
+        setcount((newcount)=>{
+            return newcount+1;
+        });
+        setcount((newcount)=>{
+            return newcount+1;
+        });
         console.log(count);
     }
     return(
