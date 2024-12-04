@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Counter from './counter'
 import Like from './like'
+import Ludoboad from "./ludoboad"
 
 function App() {
    
@@ -15,6 +16,7 @@ function App() {
        </h1>
        <Counter/>
        <Like/>
+       <Ludoboad/>
     </>
   )
 }
