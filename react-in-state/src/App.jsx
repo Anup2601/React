@@ -5,6 +5,7 @@ import './App.css'
 import Counter from './counter'
 import Like from './like'
 import Ludoboad from "./ludoboad"
+import TodoList from "./todoList"
 
 function App() {
    
@@ -17,6 +18,7 @@ function App() {
        <Counter/>
        <Like/>
        <Ludoboad/>
+       <TodoList/>
     </>
   )
 }
