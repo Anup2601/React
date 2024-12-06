@@ -6,6 +6,8 @@ import Counter from './counter'
 import Like from './like'
 import Ludoboad from "./ludoboad"
 import TodoList from "./todoList"
+import Lottry from './Lottry'
+import Ticket from './Ticket'
 
 function App() {
    
@@ -19,6 +21,7 @@ function App() {
        <Like/>
        <Ludoboad/>
        <TodoList/>
+       <Lottry/>
     </>
   )
 }
