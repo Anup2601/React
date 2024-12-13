@@ -8,6 +8,7 @@ import Ludoboad from "./ludoboad"
 import TodoList from "./todoList"
 import Lottry from './Lottry'
 import Ticket from './Ticket'
+import Forms from './Forms'
 
 function App() {
    
@@ -22,6 +23,7 @@ function App() {
        <Ludoboad/>
        <TodoList/>
        <Lottry/>
+       <Forms/>
     </>
   )
 }
