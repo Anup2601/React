@@ -12,6 +12,8 @@ let counter=()=>{
         });
         console.log(count);
     }
+use
+
     return(
         <div>
             <h3>count:- {count}</h3>
