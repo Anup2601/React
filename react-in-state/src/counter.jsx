@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 
 let counter=()=>{
@@ -12,7 +12,9 @@ let counter=()=>{
         });
         console.log(count);
     }
-use
+useEffect(function sideEffect(){
+    console.log("This is side effect");
+});
 
     return(
         <div>
