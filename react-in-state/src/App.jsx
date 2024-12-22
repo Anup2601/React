@@ -10,6 +10,7 @@ import Lottry from './Lottry'
 import Ticket from './Ticket'
 import Forms from './Forms'
 import Comment from './comment'
+import Joke from './joke'
 
 function App() {
    
@@ -26,6 +27,7 @@ function App() {
        <Lottry/>
        <Forms/>
        <Comment/>
+       <Joke/>
     </>
   )
 }
