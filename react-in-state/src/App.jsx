@@ -9,6 +9,7 @@ import TodoList from "./todoList"
 import Lottry from './Lottry'
 import Ticket from './Ticket'
 import Forms from './Forms'
+import Comment from './comment'
 
 function App() {
    
@@ -24,6 +25,7 @@ function App() {
        <TodoList/>
        <Lottry/>
        <Forms/>
+       <Comment/>
     </>
   )
 }

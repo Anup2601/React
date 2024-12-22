@@ -4,7 +4,8 @@ export default function Forms(){
     let [formData,setFormData]=useState({
         fullName:"",
         userName:"",
-        password:""
+        password:"",
+        age:""
     })
 
     let handleChange=(event)=>{
@@ -18,7 +19,8 @@ export default function Forms(){
         setFormData({
             fullName:"",
             userName:"",
-            password:""
+            password:"",
+            age:""
         })
     }
      
@@ -56,6 +58,17 @@ export default function Forms(){
                 id="password"
                 name="password"
                 onChange={handleChange}>
+              </input>
+              <br></br>
+              <br></br>
+              <label htmlFor="Age">Age</label>
+              <input 
+              placeholder="Enter your age"
+              value={formData.age}
+              type="number"
+              id="age"
+              name="age"
+              onChange={handleChange}>
               </input>
               <br></br>
               <br></br>
