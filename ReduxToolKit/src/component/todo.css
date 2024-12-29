@@ -1,0 +1,83 @@
+/* Todo.css */
+
+.todo-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.todo-header {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.add-form-container {
+    margin-bottom: 20px;
+}
+
+.todo-list {
+    list-style: none;
+    padding: 0;
+}
+
+.todo-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 15px;
+    margin: 8px 0;
+    color: #ff1201;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #dcd4d4;
+    transition: background-color 0.3s ease;
+}
+
+.todo-item.done {
+    background-color: #d4edda;
+    text-decoration: line-through;
+    color: #155724;
+}
+
+.todo-item:hover {
+    background-color: #f1f1f1;
+}
+
+.todo-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.todo-buttons button {
+    padding: 5px 10px;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.todo-buttons button.delete-btn {
+    background-color: #f44336;
+    color: white;
+}
+
+.todo-buttons button.delete-btn:hover {
+    background-color: #d32f2f;
+}
+
+.todo-buttons button.done-btn {
+    background-color: #4caf50;
+    color: white;
+}
+
+.todo-buttons button.done-btn:hover {
+    background-color: #388e3c;
+}
